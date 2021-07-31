@@ -2,7 +2,7 @@
 
 ## 현재 진행중...    
 
-[dumbokim-community1.netlify.app]
+[dumbokim-community1.netlify.app](dumbokim-community1.netlify.app)
 
 
 현재까지 틀만 만들고 서버와의 데이터 연결 준비중.   
