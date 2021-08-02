@@ -1,5 +1,6 @@
 .menu__wrapper {
   width: 25vw;
+  position: fixed;
 }
 
 .menu__body {
@@ -8,7 +9,8 @@
 
 .menu__body li {
   padding: 15px 0;
-  margin: 20px 0;
-  margin-left: 2vw;
+  margin: 20px 2vw;
+  border-bottom: 1px dotted gray;
+  border-left: 3px solid gray;
   list-style: none;
 }

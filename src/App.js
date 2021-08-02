@@ -11,6 +11,7 @@ import LikeRank from './pages/LikeRank';
 import CommentRank from './pages/CommentRank';
 import Secret from './pages/Secret';
 import ILike from './pages/ILike';
+import Posting from './pages/Posting';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/comment-rank' exact render={(props) => <CommentRank />} />
         <Route path='/secret' exact render={(props) => <Secret />} />
         <Route path='/i-like' exact render={(props) => <ILike />} />
+        <Route path='/posting' exact render={(props) => <Posting />} />
 
       </Router>
       
