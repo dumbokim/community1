@@ -12,7 +12,7 @@ export default function PostingContent() {
   // post function
   const addPost = () => {
     // post object to api
-    Axios.post('http://localhost:8000/addpost', 
+    Axios.post('http://localhost:7456/addpost', 
     {title: titleInput, password: pwdInput, description: descInput})
       .then(() => {
         alert("게시글 작성 완료!");

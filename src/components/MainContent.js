@@ -9,7 +9,7 @@ export default function MainContent() {
   
   // 게시글 가져옴
   useEffect(() => {
-    Axios.get('http://localhost:8000/getlists')
+    Axios.get('http://localhost:7456/getlists')
       .then(async (response) => {
         setPostList(response.data);
       }).catch(() => {
@@ -44,7 +44,7 @@ export default function MainContent() {
             <div className='content__lists'>
               {postList.map((val) => {
                 return (
-                    <Link><li>{val.title}</li></Link>
+                    <Link to={val._id}><li>{val.title}</li></Link>
                 )
               })}
             </div>
