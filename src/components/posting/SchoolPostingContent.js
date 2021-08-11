@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './MainContent.css';
+import '../MainContent.css';
 import './PostingContent.css';
 import Axios from 'axios';
 
-export default function PostingContent() {
+export default function SchoolPostingContent() {
 
   const [ titleInput, setTitleInput ] = useState(''); // title input
   const [ pwdInput, setPwdInput ] = useState(''); // pwd input
@@ -12,7 +12,7 @@ export default function PostingContent() {
   // post function
   const addPost = () => {
     // post object to api
-    Axios.post('http://localhost:7456/addpost', 
+    Axios.post('http://localhost:7456/writeschool', 
     {title: titleInput, password: pwdInput, description: descInput})
       .then(() => {
         alert("게시글 작성 완료!");
@@ -25,7 +25,7 @@ export default function PostingContent() {
       <div className='content__body'>
         {/* 페이지 설명 */}
         <div className='content__header'>
-          <h1>글쓰기</h1>
+          <h1>학교 소식</h1>
         </div>
         {/* 게시글 작성 칸 */}
         <div className='content__content'>

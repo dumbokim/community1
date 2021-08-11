@@ -14,3 +14,7 @@
   border-left: 3px solid gray;
   list-style: none;
 }
+
+.menu__body li:hover {
+  color: lightcoral;
+}

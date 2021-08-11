@@ -44,7 +44,7 @@ export default function MainContent() {
             <div className='content__lists'>
               {postList.map((val) => {
                 return (
-                    <Link to={val._id}><li>{val.title}</li></Link>
+                    <Link to={val._id}><li className="post_lists">{val.title}</li></Link>
                 )
               })}
             </div>

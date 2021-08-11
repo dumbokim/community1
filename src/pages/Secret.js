@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
-import Header from '../components/Header';
-import MainMenu from '../components/MainMenu';
+import Header from '../layouts/Header';
+import MainMenu from '../layouts/MainMenu';
 import SecretContent from '../components/SecretContent';
 
 export default function Main() {

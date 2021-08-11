@@ -61,11 +61,21 @@
   flex-direction: column-reverse;
 }
 
+.content__lists a {
+  text-decoration: none;
+}
 .content__lists li {
   padding: 3px;
   margin: 1px;
   border: 1px solid gray;
   text-align: left;
+  color: black;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.content__lists li:hover {
+  color: lightcoral;
 }
 
 .content__list__footer {
