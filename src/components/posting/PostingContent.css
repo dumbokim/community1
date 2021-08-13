@@ -29,3 +29,11 @@
 .posting__footer {
   padding-top: 10px;
 }
+
+#post_btn {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.664);
+  border: none;
+  border-radius: 30vh;
+  color: aliceblue;
+}

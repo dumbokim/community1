@@ -40,7 +40,7 @@ export default function SchoolPostingContent() {
           </div>
           {/* 버튼 있는 footer */}
           <div className='posting__footer'>
-            <button type='submit' onClick={addPost}>POST</button>
+            <button id='post_btn' type='submit' onClick={addPost}>POST</button>
           </div>
         </div>
       </div>

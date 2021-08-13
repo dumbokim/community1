@@ -11,7 +11,7 @@ export default function Header() {
       <div className='header__body'>
         <Link to='/'><button id='home__btn'>HOME</button></Link>
         <div className='header__btns'>
-          <Link to='writings'> <button>내가 쓴 글</button></Link>
+          <Link to='i-write'> <button>내가 쓴 글</button></Link>
           <Link to='i-like'><button>좋아요한 글</button></Link>
           <button>마이페이지</button>
         </div>

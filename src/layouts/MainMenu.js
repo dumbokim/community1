@@ -6,7 +6,7 @@ export default function MainMenu() {
   return (
     <div class='menu__wrapper'>
       <ul className='menu__body'>
-        <Link to='free' style={{ color: 'inherit', textDecoration: 'inherit'}}><li>자유게시판</li></Link>
+        <Link to='/free' style={{ color: 'inherit', textDecoration: 'inherit'}}><li>자유게시판</li></Link>
         <Link to='school' style={{ color: 'inherit', textDecoration: 'inherit'}}><li>학교 소식</li></Link>
         <Link to='honey' style={{ color: 'inherit', textDecoration: 'inherit'}}><li>꿀팁게시판</li></Link>
         <Link to='view-rank' style={{ color: 'inherit', textDecoration: 'inherit'}}><li>조회수 많은 글</li></Link>

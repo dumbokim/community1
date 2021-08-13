@@ -1,7 +1,7 @@
 import React from 'react'
 import './MainContent.css'
 
-export default function WritingContent() {
+export default function IWriteContent() {
   return (
     <div className='content__wrapper'>
       <div className='content__body'>

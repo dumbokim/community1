@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './MainContent.css'
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import Axios from 'axios';
 
-export default function MainContent() {
+function MainContent() {
 
   const [postList, setPostList ] = useState([]); // 게시글 담는 리스트
   
@@ -61,3 +61,5 @@ export default function MainContent() {
     </div>
   )
 }
+
+export default withRouter(MainContent);

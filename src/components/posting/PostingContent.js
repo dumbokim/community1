@@ -3,7 +3,7 @@ import '../MainContent.css';
 import './PostingContent.css';
 import Axios from 'axios';
 
-export default function FreePostingContent() {
+export default function PostingContent() {
 
   const [ titleInput, setTitleInput ] = useState(''); // title input
   const [ pwdInput, setPwdInput ] = useState(''); // pwd input
